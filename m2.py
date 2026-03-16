@@ -5,4 +5,4 @@ def msg():
     return val1+val2       
 #print(msg())          method 2
 res = msg()
-print("Result=",res)
+print("Result=",res)             #method 3
