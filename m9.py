@@ -14,3 +14,14 @@ else:
     print("Value not found") 
 
     
+
+mylist = [4, 2, 7, 8, 5, 4, 1]
+
+def sumOfElements():
+    total = 0
+    for i in range(len(mylist)):
+        total += mylist[i]
+    return total
+
+res = sumOfElements()
+print("Sum of all elements =", res)
