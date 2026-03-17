@@ -1,8 +1,8 @@
 fruit_list1 = ['Apple','Berry','Cherry','Papaya']
-fruit_list2 = fruit_list1
-fruit_list3 = fruit_list1[:]
-fruit_list2[0] = 'Guava'
-fruit_list3[1] = 'Kiwi'
+fruit_list2 = fruit_list1               #['Apple','Berry','Cherry','Papaya']
+fruit_list3 = fruit_list1[:]             #['Apple','Berry','Cherry','Papaya']
+fruit_list2[0] = 'Guava'                 #['Guava','Berry','Cherry','Papaya']
+fruit_list3[1] = 'Kiwi'                  #['Apple','Kiwi','Cherry','Papaya']
 
 sum = 0
 for ls in (fruit_list1, fruit_list2, fruit_list3):
