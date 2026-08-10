@@ -1,0 +1,11 @@
+# Write your solution here
+# Read inputs for counters A and B
+a = int(input())
+b = int(input())
+
+#swap variables simultaneously
+a, b = b, a 
+
+#print the new values
+print(a)
+print(b)
